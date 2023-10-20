@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  color: #000;
+  margin: 0px;
+  font-family: "Merriweather", serif;
+  background-color: #b7eae2;
+  line-height: 1.5rem;
+  font-size: 1.4rem;
+}
+
+p {
+  line-height: 1.3rem;
+  font-size: 1.2rem;
+}
+
+.container {
+  max-width: 1180px;
+  margin-inline: auto;
+  padding-inline: 20px;
+  overflow: hidden;
+}
+
+.profilpic {
+  position: absolute;
+  border-radius: 50%;
+  height: 100;
+  width: 10%;
+  top: 30px;
+  left: 15px;
+}
+
+.aboutTitle {
+  margin: 50px auto 30px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.skills {
+  margin-top: 100px;
+}
+
+.skills_text {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.frontend,
+.python,
+.javascript {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 50px 200px;
+}
+
+.allskills img {
+  width: 100px;
+  margin: 20px;
+  margin-left: 0;
+}
+
+.aboutskills {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
